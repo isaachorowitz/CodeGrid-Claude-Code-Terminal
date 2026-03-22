@@ -30,7 +30,7 @@ If you're using Claude Code, you're probably running it in multiple repos at onc
 
 CodeGrid puts every session on a **single 2D canvas**. You see everything at once. You type once and broadcast to all of them. You never miss a prompt again.
 
-**~10 MB.** Launches in under a second. No Electron bloat.
+**~10 MB.** Built with [Tauri](https://tauri.app) — launches in under a second.
 
 ---
 
