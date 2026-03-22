@@ -8,46 +8,81 @@
 <h3 align="center">The terminal workspace for AI coding agents</h3>
 
 <p align="center">
-Run dozens of Claude Code sessions on a free-form 2D canvas.<br/>
-Drag, resize, broadcast, and manage — all from one window.
+Run dozens of Claude Code sessions across all your projects — organized on a<br/>
+free-form 2D canvas you can drag, resize, and broadcast to.
 </p>
+
+<p align="center">
+  <a href="https://github.com/isaachorowitz/CodeGrid-Claude-Code-Terminal/releases/latest"><strong>Download for macOS &rarr;</strong></a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://codegrid.app">Website</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://codegrid.app/terms">Terms</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="https://codegrid.app/privacy">Privacy</a>
+</p>
+
+---
+
+## Why CodeGrid?
+
+If you're using Claude Code, you're probably running it in multiple repos at once. Switching between terminal tabs or tmux panes gets chaotic fast — you lose track of which agent is waiting, which one finished, and which one needs your attention.
+
+CodeGrid puts every session on a **single 2D canvas**. You see everything at once. You type once and broadcast to all of them. You never miss a prompt again.
+
+**~10 MB.** Launches in under a second. No Electron bloat.
 
 ---
 
 ## Download
 
-### [→ Download CodeGrid v0.1.0 for macOS](https://github.com/isaachorowitz/CodeGrid-Claude-Code-Terminal/releases/latest)
+### [Download CodeGrid for macOS](https://github.com/isaachorowitz/CodeGrid-Claude-Code-Terminal/releases/latest)
 
-> Requires **macOS 13+** on Apple Silicon (M1 / M2 / M3 / M4).
+> **Apple Silicon** (M1 / M2 / M3 / M4) &middot; macOS 13+
 >
-> Signed and notarized by Apple — double-click to install, no security warnings.
+> Signed and notarized by Apple. Double-click to install.
 
----
-
-## What is CodeGrid?
-
-Most terminals give you tabs or split panes. CodeGrid gives you a **free-form 2D grid** — tile 4, 9, 16+ terminal sessions in any arrangement and manage them all at once.
-
-Built for developers running [Claude Code](https://claude.ai/claude-code) in parallel across multiple projects.
-
-<p align="center">
-  <strong>~10 MB</strong> · Built with Tauri, not Electron
-</p>
+**14-day free trial** &middot; No credit card required &middot; **$29** one-time purchase
 
 ---
 
 ## Features
 
-| | |
-|---|---|
-| **2D Grid Canvas** | Drag, resize, and arrange terminal panes freely — not tabs, not splits |
-| **Broadcast Mode** | Type once, send to every pane simultaneously |
-| **Full Git Manager** | Stage, commit, push, pull, branch — without leaving the app |
-| **MCP Server Manager** | Add, toggle, and remove Claude MCP servers from the sidebar |
-| **GitHub Integration** | Auth via device flow, search repos, one-click clone |
-| **Command Palette** | `Cmd+K` — fuzzy search across actions, sessions, and workspaces |
-| **Workspace System** | Save and restore named layouts with all their sessions |
-| **Keyboard-First** | Navigate, swap, maximize, and jump between panes without touching the mouse |
+### Terminal Canvas
+Arrange terminal panes freely on a 2D canvas — not tabs, not splits. Drag to reposition, resize from any edge, zoom in and out, pan around. The canvas has momentum physics so it feels smooth and natural.
+
+### Broadcast Mode
+Type once, send to every terminal at the same time. Perfect for running the same command across all your projects. Toggle with `Cmd+B`.
+
+### Activity Detection
+CodeGrid watches all your sessions and tells you when Claude needs your attention. You'll see status indicators (running, waiting, idle, error) on every pane — even when zoomed out.
+
+### Session Persistence
+Close the app, reopen it, and your sessions come back exactly where you left them — same directories, same layout positions, same names.
+
+### Full Git Manager
+Stage, unstage, commit, push, pull, fetch, stash, create branches, switch branches, and view commit history — all from the sidebar. See file-level diffs inline. Discard changes with confirmation.
+
+### File Explorer
+Browse your project files with git status indicators. Create, rename, move, copy, and delete files and folders. Drag and drop to reorganize. Right-click context menu with all the actions you'd expect.
+
+### Code Editor
+Click any file to open it in the built-in editor with syntax highlighting. Always editable — make a change, hit save. Diffs available for changed files.
+
+### Dependency Graph
+Visualize how your files connect to each other — which files import which. An interactive force-directed graph you can pan, zoom, and click through. Supports TypeScript, JavaScript, Python, and Rust.
+
+### Command Palette
+`Cmd+K` to access any action. Switch workspaces, open folders, focus sessions, change layouts, run git commands — all from one search box.
+
+### Multiple Workspaces
+Create separate workspaces for different projects. Each workspace has its own layout, sessions, and git context. Workspaces auto-name themselves after the project folder.
+
+### MCP Server Manager
+Add, toggle, and configure Claude MCP servers from the sidebar. No config files to edit manually.
+
+### External Control API
+Other tools on your machine can control CodeGrid through a local Unix socket. Open folders, create sessions, and trigger actions from scripts, Alfred workflows, or IDE extensions.
 
 ---
 
@@ -55,51 +90,54 @@ Built for developers running [Claude Code](https://claude.ai/claude-code) in par
 
 | Shortcut | Action |
 |----------|--------|
-| `Cmd+N` | New pane |
-| `Cmd+W` | Close focused pane |
-| `Cmd+Arrow` | Navigate between panes |
-| `Cmd+Shift+Arrow` | Swap pane positions |
-| `Cmd+Enter` | Maximize / restore pane |
+| `Cmd+N` | New session |
+| `Cmd+W` | Close session |
 | `Cmd+K` | Command palette |
-| `Cmd+1–9` | Jump to pane by number |
-| `Cmd+B` | Toggle broadcast mode |
+| `Cmd+B` | Broadcast to all |
+| `Cmd+Enter` | Maximize / restore pane |
+| `Cmd+1–9` | Jump to pane |
+| `Cmd+Arrow` | Navigate between panes |
 | `Cmd+S` | Toggle sidebar |
-| `Cmd+Tab` | Cycle workspaces |
+| `Cmd+Tab` | Switch workspace |
 | `Cmd+Shift+N` | New workspace |
+| `Cmd+F` | Search in terminal |
 | `Cmd+,` | Settings |
 
 ---
 
-## Layout Presets
+## Pricing
 
-- **1×1** — Single focused pane
-- **2×2** — Four equal quadrants
-- **3×3** — Nine-pane dense grid
-- **1+2** — One large left, two stacked right
-- **1+3** — One large top, three small bottom
+| | Free Trial | Licensed |
+|---|---|---|
+| Duration | 14 days | Lifetime |
+| Sessions | Up to 9 | Up to 50 |
+| Workspaces | Unlimited | Unlimited |
+| All features | Yes | Yes |
+| Price | Free | **$29** one-time |
+| Updates | Included | 1 year included |
 
----
+After year one, updates are **$19/year** (optional — the app keeps working without it).
 
-## Tech Stack
-
-| Layer | Technology |
-|-------|-----------|
-| Desktop Shell | Tauri v2 (Rust) |
-| Frontend | React 19 · TypeScript |
-| Terminal | xterm.js 5 (WebGL) |
-| State | Zustand 5 |
-| Styling | Tailwind CSS v4 |
-| PTY | portable-pty 0.8 |
-| Database | SQLite (rusqlite) |
+**[Buy a license &rarr;](https://codegrid.app/#pricing)**
 
 ---
 
-## License
+## Privacy
 
-14-day free trial (up to 9 panes). Licensed tier unlocks unlimited panes.
+CodeGrid runs entirely on your machine. There is no telemetry, no analytics, no cloud dependency, and no account required. Your code never leaves your computer. The only network requests are optional (GitHub API for the repo browser, and checking for updates).
+
+**[Full privacy policy &rarr;](https://codegrid.app/privacy)**
+
+---
+
+## Requirements
+
+- macOS 13+ (Ventura or later)
+- Apple Silicon (M1 / M2 / M3 / M4)
+- [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) installed
 
 ---
 
 <p align="center">
-  Built by <a href="https://github.com/isaachorowitz">Isaac Horowitz</a> · <a href="https://ziplyne.agency">ZipLyne Agency</a>
+  Built by <a href="https://ziplyne.agency">ZipLyne LLC</a>
 </p>
