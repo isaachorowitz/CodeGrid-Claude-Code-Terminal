@@ -42,7 +42,6 @@ Built for developers running [Claude Code](https://claude.ai/claude-code) in par
 |---|---|
 | **2D Grid Canvas** | Drag, resize, and arrange terminal panes freely — not tabs, not splits |
 | **Broadcast Mode** | Type once, send to every pane simultaneously |
-| **Git Worktree Isolation** | Each session gets its own worktree — no conflicts between agents |
 | **Full Git Manager** | Stage, commit, push, pull, branch — without leaving the app |
 | **MCP Server Manager** | Add, toggle, and remove Claude MCP servers from the sidebar |
 | **GitHub Integration** | Auth via device flow, search repos, one-click clone |
