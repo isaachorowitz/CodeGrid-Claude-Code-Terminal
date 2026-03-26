@@ -42,7 +42,7 @@ CodeGrid puts every session on a **single 2D canvas**. You see everything at onc
 >
 > Signed and notarized by Apple. Double-click to install.
 
-**Free to start** &middot; No credit card required &middot; Pro from **$7.99/month**
+Free and Pro tiers available — see [codegrid.app](https://codegrid.app) for details.
 
 ---
 
@@ -102,24 +102,6 @@ Other tools on your machine can control CodeGrid through a local Unix socket. Op
 | `Cmd+Shift+N` | New workspace |
 | `Cmd+F` | Search in terminal |
 | `Cmd+,` | Settings |
-
----
-
-## Pricing
-
-| | Free | Pro |
-|---|---|---|
-| Sessions | Up to 3 | Up to 50 |
-| All 5 AI agents | ✓ | ✓ |
-| 2D canvas | ✓ | ✓ |
-| Git manager | — | ✓ |
-| GitHub browser | — | ✓ |
-| MCP management | — | ✓ |
-| Attention detection | — | ✓ |
-| All layout presets | — | ✓ |
-| Price | Free forever | **$7.99/mo or $79/yr** |
-
-Subscribe at [codegrid.app/pricing](https://codegrid.app/pricing)
 
 ---
 
