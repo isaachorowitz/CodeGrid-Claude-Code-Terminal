@@ -42,7 +42,7 @@ CodeGrid puts every session on a **single 2D canvas**. You see everything at onc
 >
 > Signed and notarized by Apple. Double-click to install.
 
-**14-day free trial** &middot; No credit card required &middot; **$29** one-time purchase
+**Free to start** &middot; No credit card required &middot; Pro from **$7.99/month**
 
 ---
 
@@ -95,7 +95,7 @@ Other tools on your machine can control CodeGrid through a local Unix socket. Op
 | `Cmd+K` | Command palette |
 | `Cmd+B` | Broadcast to all |
 | `Cmd+Enter` | Maximize / restore pane |
-| `Cmd+1–9` | Jump to pane |
+| `Cmd+1-9` | Jump to pane |
 | `Cmd+Arrow` | Navigate between panes |
 | `Cmd+S` | Toggle sidebar |
 | `Cmd+Tab` | Switch workspace |
@@ -107,18 +107,19 @@ Other tools on your machine can control CodeGrid through a local Unix socket. Op
 
 ## Pricing
 
-| | Free Trial | Licensed |
+| | Free | Pro |
 |---|---|---|
-| Duration | 14 days | Lifetime |
-| Sessions | Up to 9 | Up to 50 |
-| Workspaces | Unlimited | Unlimited |
-| All features | Yes | Yes |
-| Price | Free | **$29** one-time |
-| Updates | Included | 1 year included |
+| Sessions | Up to 3 | Up to 50 |
+| All 5 AI agents | ✓ | ✓ |
+| 2D canvas | ✓ | ✓ |
+| Git manager | — | ✓ |
+| GitHub browser | — | ✓ |
+| MCP management | — | ✓ |
+| Attention detection | — | ✓ |
+| All layout presets | — | ✓ |
+| Price | Free forever | **$7.99/mo or $79/yr** |
 
-After year one, updates are **$19/year** (optional — the app keeps working without it).
-
-**[Buy a license &rarr;](https://codegrid.app/#pricing)**
+Subscribe at [codegrid.app/pricing](https://codegrid.app/pricing)
 
 ---
 
