@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/CodeGrid-v0.1.0-ff8c00?style=for-the-badge" alt="CodeGrid v0.1.0" />
   <img src="https://img.shields.io/badge/macOS-Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS Apple Silicon" />
-  <img src="https://img.shields.io/badge/Signed_%26_Notarized-Apple-999999?style=for-the-badge" alt="Signed & Notarized" />
+  <img src="https://img.shields.io/badge/Open_Source-MIT-brightgreen?style=for-the-badge" alt="Open Source MIT" />
 </p>
 
 <h1 align="center">CodeGrid</h1>
@@ -30,7 +30,7 @@ If you're using Claude Code, you're probably running it in multiple repos at onc
 
 CodeGrid puts every session on a **single 2D canvas**. You see everything at once. You type once and broadcast to all of them. You never miss a prompt again.
 
-**~10 MB.** Built with [Tauri](https://tauri.app) — launches in under a second.
+**~10 MB.** Built with [Tauri](https://tauri.app) — launches in under a second. **Completely free and open source.**
 
 ---
 
@@ -42,7 +42,7 @@ CodeGrid puts every session on a **single 2D canvas**. You see everything at onc
 >
 > Signed and notarized by Apple. Double-click to install.
 
-Free and Pro tiers available — see [codegrid.app](https://codegrid.app) for details.
+Free, open source, no account required.
 
 ---
 
@@ -118,6 +118,12 @@ CodeGrid runs entirely on your machine. There is no telemetry, no analytics, no 
 - macOS 13+ (Ventura or later)
 - Apple Silicon (M1 / M2 / M3 / M4)
 - [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) installed
+
+---
+
+## License
+
+MIT — free to use, modify, and distribute.
 
 ---
 
